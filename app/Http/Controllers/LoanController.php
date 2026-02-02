@@ -24,7 +24,7 @@ class LoanController extends Controller
         
         /** @var \App\Models\User $user */
         $user = Auth::user();
-        $query = $user->loans();
+        $query = $user->loans()->with('user');
 
         // Filter by status
         if ($request->filled('status')) {
@@ -40,7 +40,7 @@ class LoanController extends Controller
             $query->where('issued_date', '<=', $request->issued_date_to);
         }
 
-        // Paginate results
+        // Paginate results with eager loading to prevent N+1 queries
         $loans = $query->latest()->paginate(10);
 
         return view('loans.index', compact('loans'));
