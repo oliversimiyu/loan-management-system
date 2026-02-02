@@ -2,10 +2,6 @@
 
 A Laravel-based loan management application for Demulla Investment Limited microfinance institution.
 
-## Project Overview
-
-This is a practical assessment project that implements a complete loan management module with both backend logic and a simple user interface. The system allows authenticated users to manage customer loans with full CRUD operations, filtering, and pagination.
-
 ## Features
 
 - **User Authentication** - Built on Laravel's authentication system
