@@ -204,9 +204,8 @@ routes/
 3. Each loan is managed by one staff user
 4. Loan calculations (interest, payments) are handled elsewhere
 5. No role-based permissions needed beyond ownership
-6. Simple pagination (10 items) is sufficient
+6. Simple pagination (10 item)
 7. No need for API endpoints (web-only application)
-8. Bootstrap/Tailwind not required (assessment specifies simple styling)
 
 ## Testing
 
@@ -241,25 +240,7 @@ Note: Test coverage focuses on core functionality and is not exhaustive for this
 ### Authorization Errors
 - Ensure you're logged in
 - Verify you're accessing your own loans
-- Check LoanPolicy is registered
-
+- Check LoanPolicy is registered.
 ## License
 
 This project is developed as a practical assessment for Demulla Investment Limited.
-
----
-
-**Developer**: Candidate Assessment Project  
-**Date**: February 2, 2026  
-**Organization**: Demulla Investment Limited
-
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
