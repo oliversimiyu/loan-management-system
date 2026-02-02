@@ -187,15 +187,9 @@ routes/
 - **Custom Error Messages** - Provides clear feedback to users
 - **Client-side HTML5 Validation** - Basic UX improvement
 
-### UI/UX
-- **Simple CSS** - No framework dependency for easy understanding
-- **Responsive Design** - Basic mobile-friendly layout
-- **Clear Messaging** - Success/error messages for all operations
-- **Inline Validation Errors** - Shows errors next to form fields
-
 ## Assumptions
 
-1. User authentication is already implemented (Laravel default)
+1. User authentication is already implemented.
 2. This is an internal tool for microfinance staff
 3. Each loan is managed by one staff user
 4. Loan calculations (interest, payments) are handled elsewhere
