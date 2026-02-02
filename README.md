@@ -47,7 +47,7 @@ A Laravel-based loan management application for Demulla Investment Limited micro
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/oliversimiyu/loan-management-system
    cd loan-management-system
    ```
 
