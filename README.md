@@ -1,6 +1,6 @@
 # Loan Management System
 
-A Laravel-based loan management application for Demulla Investment Limited microfinance institution.
+A Laravel-based loan management application for Demulla Investment Limited microfinance institution..
 
 ## Features
 
