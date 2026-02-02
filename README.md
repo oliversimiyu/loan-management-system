@@ -70,17 +70,24 @@ A Laravel-based loan management application for Demulla Investment Limited micro
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=loan_management
-   DB_USERNAME=your_username
-   DB_PASSWORD=your_password
+   DB_DATABASE=laravel
+   DB_USERNAME=laravel_user
+   DB_PASSWORD=password123
    ```
 
-5. **Run migrations**
+5. **Build frontend assets**
+   ```bash
+   npm install && npm run build
+   ```
+   
+   > **Note:** This step is crucial! The application will not load properly without building the frontend assets.
+
+6. **Run migrations**
    ```bash
    php artisan migrate
    ```
 
-6. **Create a user account**
+7. **Create a user account**
    
    You can use tinker to create a test user:
    ```bash
@@ -95,12 +102,12 @@ A Laravel-based loan management application for Demulla Investment Limited micro
    ]);
    ```
 
-7. **Start the development server**
+8. **Start the development server**
    ```bash
    php artisan serve
    ```
 
-8. **Access the application**
+9. **Access the application**
    
    Navigate to `http://localhost:8000` in your browser.
 
